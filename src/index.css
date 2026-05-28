@@ -1,14 +1,17 @@
 @import "tailwindcss";
-@tailwind utilities;
+
+/* 1. Prevent mobile layout shifting and overflow */
+html, body {
+  max-width: 100vw;
+  overflow-x: hidden;
+  margin: 0;
+  padding: 0;
+  scroll-behavior: smooth;
+}
 
 /* Hide default cursor globally */
 *, *::before, *::after {
   cursor: none !important;
-}
-
-/* Smooth scrolling */
-html {
-  scroll-behavior: smooth;
 }
 
 /* Slow spin for profile ring */
