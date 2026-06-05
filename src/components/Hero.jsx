@@ -1,6 +1,6 @@
 import { motion } from "framer-motion";
 import { useEffect, useState } from "react";
-import profileimage from "../assets/profileImage.jpg";
+import profileimage from "../assets/profileImage.png";
 
 const roles = [
   "Java Full Stack Developer",
